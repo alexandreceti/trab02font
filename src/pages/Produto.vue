@@ -14,6 +14,12 @@
           <div class="column is-full">
             <h2 class="title" itemprop="name">Jogo: {{ produto.name}}</h2>
             <h2 class="title" itemprop="price">Preço: {{ formatPrice(produto.preco)}}</h2>
+            <div itemprop="description">
+              {{ produto.descricao }}
+            </div>
+            <br />
+            <br />
+            <br />
           </div>
           <div class="column is-full">
             <button class="button is-success is-outlined is-medium is-fullwidth">Comprar</button>
